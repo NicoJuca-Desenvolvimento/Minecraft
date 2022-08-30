@@ -5,5 +5,5 @@
 
 ## Referencias
 
-    Usamos algumas referencias para criar o jogo, no caso o próprio jogo do minecraft, e o jogo do minecraft story mode
+    Usamos algumas referencias para criar o jogo, no caso o próprio jogo do minecraft, e o jogo do minecraft story mode.
     Links: https://www.minecraft.net/pt-br --> https://minecraft.fandom.com/pt/wiki/Minecraft:_Story_Mode
