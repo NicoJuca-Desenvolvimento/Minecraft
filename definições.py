@@ -151,11 +151,230 @@ estados = {
             '1': 22 #dia 2.2
         }
     },
+    22: { #dia 2.2
+        'frases': ['**Checkpoint**|Após descansar um pouco a noite e refletir sobre o que o aldeão falou, você se depara com um dilema, afinal você precisa saber onde seu amigo está, mas você está de mãos vazias para entrar em um "combate".|:one: - Ler o livro.|:two: - Sair em uma jornada atrás de looting.|:three: - Ir para floresta pegar madeira e craftar uma picareta.'],
+        'proximos_estados':{
+            '1': 23, #livro
+            '2': 24, #dia 2.3
+            '3': 25 #dia 2.4
+        }
+    },
+    23: { #livro
+        'frases': ['```Olá viajante, seja bem vindo ao mundo do MINECRAFT, eu sei que você não quer estar aqui assim como seu amigo. Ele não começou a jornada ao seu lado mas precisa terminar, para que isso seja concluido da forma correta é necessário juntar os olhos em seus pulsos em cima de uma piscina de lava na biblioteca sombria nos fundos de uma mina abandonada.|Os olhos possuem um grande poder, quando os 2 viajantes descobrem como sair desse mundo, os olhos brilham como o sol e olham em direção ao seu olho irmão. Passando do portal você ainda não estará livre, no mundo do fim há um gigantesco desafio, assim como na era medieval voces terão de trabalhar em equipe para derrotar o dragão e assim se libertarem dessa criação.```|:one: - Voltar.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    24: { #dia 2.3
+        'frases': ['Ao sair em uma jornada você segue por um longo tempo e acaba achando uma pequena cabana de tijolos com chaminé saindo fumaça. Por ter andado muito tempo você parece um pouco cansado e já sente fome. Pode ser que tenha alguém ali.|:one: - Ir na floresta atrás de uma galinha e retornar para a cabana.|:two: - Bater na porta da cabana.'],
+        'proximos_estados':{
+            '1': 28, #dia 2.7
+            '2': 29 #dia 2.8
+        }
+    },
+    25: { #dia 2.4
+        'frases': ['Você foi em direção para floresta de pinheiro a frente e conseguiu adquiriu algumas madeiras e fez uma picareta de madeira e está pronto para minerar, só precisa encontrar alguma caverna. Caminhando por pouco mais de uma hora, você finalmente encontra uma mina.|:one: - Ir minerar.'],
+        'proximos_estados':{
+            '1': 26 #dia 2.5
+        }
+    },
+    26: { #dia 2.5
+        'frases': ['Parabéns, você possui uma picareta de madeira e foi em busca de minérios e acabou conseguindo algumas pedras e melhorando sua picareta, continuou no trabalho duro e conseguiu bastante ferro, se quiser voce pode fazer algumas armas.|:one: - Continuar minerando.|:two: - Fazer armamento.'],
+        'proximos_estados':{
+            '1': 27, #dia 2.6
+            '2': 32 #dia 2.11
+        }
+    },
+    27: { #dia 2.6
+        'frases': ['O resto do tempo que passou minerando não lhe rendeu muitos recursos, você acabou se cansando bastante e a noite está próxima, a melhor opção é craftar suas armas.|:one: - Guardar minérios e voltar para a vila.|:two: - Fazer armamento.'],
+        'proximos_estados':{
+            '1': 31, #dia 2.10
+            '2': 32 #dia 2.11
+        }
+    },
+    28: { #dia 2.7
+        'frases': ['Com a flecha que sobrou da primeira caçada, e após ter pego um pouco a prática você usou uma flecha para pegar 2 coelhos em 1 cajadada só, assim você descansa e se alimenta nesse fim de tarde e está na hora de ir para a cabana.|:one: - Voltar para a cabana.'],
+        'proximos_estados':{
+            '1': 29 #dia 2.8
+        }
+    },
+    29: { #dia 2.8
+        'frases': ['Ao chegar perto da cabana você começa a escutar a lenha da chaminá estalando por conta da janela da sala estar aberta, então você bate na porta algumas vezes porém sem resposta da parte de dentro.|Já está escuro lá fora, e alguns lobos começam a uivar na floresta.|:one: - Entrar silenciosamente na cabana.|:two: - Não entrar na casa de um estranho e achar outro lugar para passar a noite.'],
+        'proximos_estados':{
+            '1': 30, #dia 2.9
+            '2': 33 #noite 2
+        }
+    },
+    30: { #dia 2.9
+        'frases': ['Ao abrir a porta você acaba fazendo um barulho muito alto, talvez está casa seja meio velha, o barulho acaba acordando um senhor que vem correndo em direção à porta de entrada.|Homem barbudo: *"QUEM É VOCÊ? O QUE FAZ AQUI?"*|:one: - Cair no soco com o velho.|:two: - *"Sou apenas um viajante atrás de ajuda, não fique nervoso, vamos conversar."*'],
+        'proximos_estados':{
+            '1': 39, #dia 2.17
+            '2': 40 #dia 2.18
+        }
+    },
+    31: { #dia 2.10
+        'frases': ['Continuar sem armas não foi uma boa opção, no caminho de volta para a vila você é cercado por monstros, por mais que tenha tentado gritar por ajuda, nínguem estava próximo para ajudá-lo.|**Você Morreu.**|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    32: { #dia 2.11
+        'frases': ['Você conseguiu fazer sua armadura e espada com o ferro que adquiriu, voltando para a vila você começa a ficar com muita sede e fome, e ainda tem pelo menos mais uns 10 quilometros de caminhada até a vila, o que deseja fazer?|:one: - Ir em direção a vila.|:two: - Parar para caçar.'],
+        'proximos_estados':{
+            '1': 34, #dia 2.12
+            '2': 35 #dia 2.13
+        }
+    },
+    33: { #noite 2
+        'frases': ['Ao sair da cabana você vai em direção ao riacho para tentar encontrar alguma casa vizinha a cabana, porém sem sorte, então acaba descansando por ali mesmo.|No meio da noite você acorda com uivos muito barulhentos ao seu redor, e percebe que estás cercado por 2 lobos claramente com fome.|:one: - Usar o arco para se defender.|:two: - Ir se afastando e correr em direção a cabana.'],
+        'proximos_estados':{
+            '1': 41, #noite 2.1
+            '2': 42 #noite 2.2
+        }
+    },
+    34: { #dia 2.12
+        'frases': ['Depois de caminhar cerca de 5 quilometros,  você percebe que não vai conseguir chegar vivo por causa da desidratação, tem certeza que quer continuar?|:one: - Continuar caminhando.|:two: - Parar para caçar.'],
+        'proximos_estados':{
+            '1': 36, #dia 2.14
+            '2': 35 #dia 2.13
+        }
+    },
+    35: { #dia 2.13
+        'frases': ['Sua caça foi muito bem sucedida, com a espada você consegue matar 1 porco, então fez uma fogueira e assou a carne, ficando muito bem alimentado.|O tempo vai passando e o clima vai esfriando, começa a cair um pouco de neve, e sua roupa não vai conseguir esquentá-lo durante uma nevasca, por sorte, avista um cavalo manso, que pode levá-lo rapidamente de volta para a vila.|:one: - Montar no cavalo e ir até a vila.|:two: - Passar a noite do lado da fogueira.'],
+        'proximos_estados':{
+            '1': 37, #dia 2.15
+            '2': 38 #dia 2.16
+        }
+    },
+    36: { #dia 2.14
+        'frases': ['A fome e a desidratação fizeram com que você desmaiasse, durante a noite ainda cai uma nevasca e então você morre congelado no meio da floresta.|```Lembre-se que aqui é tudo diferente, inclusive o tempo que pode ficar sem comer e/ou beber água```|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    37: { #dia 2.15
+        'frases': ['O cavalo era muitó dócil e vocês se deram muito bem, depois de montar em cima dele não demorou muito para que chegasse em segurança na vila. Ao chegar, logo leva o cavalo até o estábulo dos aldeões, para que ele passe a noite em segurança, seu novo amigo lhe ajudará muito futuramente, você o apelidou de pé de pano.|:one: - Ir descansar.'],
+        'proximos_estados':{
+            '1': 57 #dia 3.0
+        }
+    },
+    38: { #dia 2.16
+        'frases': ['Passaram-se 2 horas desde o momento que decidiu deixar o cavalo ir embora e ficar ao lado da fogueira, que acabou apagando quando a nevasca começou, o frio extremo fez com que seu corpo todo congelasse, começando pelos dedos dos pés e das mãos.|**Você Morreu**|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    39: { #dia 2.17
+        'frases': ['Você corre em direção ao homem tentando atingi-lo com um soco, mas o senhor acaba desviando, mostrando incríveis reflexos.|Homem barbudo: *"Você invadiu a cabana do cara errado, vai se arrepender por isso!"*|O homem pega então uma frigideira, muito similar a do free fire, e lhe atinge com uma forte pancada no queixo.|**Você Morreu**|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    40: { #dia 2.18
+        'frases': ['Homem barbudo: *"Você tem alguma arma aí?"*|Você: *"Apenas um arco velho, mas sem flechas, quer que eu o deixe aqui na entrada?"*|Homem barbudo: *"Faça isso mesmo... Depois pode se sentar ali no sofá, imagino que tenha algo para me perguntar."*|:one: - Ir para cima do velho no momento que ele vira de costas.|:two: - Sentar-se e perguntar se o senhor pode lhe ajudar com alguns itens.'],
+        'proximos_estados':{
+            '1': 39, #dia 2.17
+            '2': 46 #dia 2.22
+        }
+    },
+    41: { #noite 2.1
+        'frases': ['Por estar sem flechas você usaria o próprio arco para tentar se defender dos múltiplos ataques dos lobos, você consegue desviar de alguns ataques batendo nos lobos com seu arco, porém em um ataque surpresa você coloca o arco na frente e acaba sendo abocanhado pelo lobo e se quebra.|Após um logo embate sem armamento dessa vez, os lobos acabam conseguindo o que querem e você vira comida de lobo.|**Você Morreu**|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    42: { #noite 2.2
+        'frases': ['A cabana se encontra meio longe, e mesmo correndo o mais rápido que você podia, os lobos conseguem chegar até você, que não consegue se defender apenas com um arco.|**Você Morreu**|:one: - Voltar para o checkpoint.'],
+        'proximos_estados':{
+            '1': 22 #dia 2.2
+        }
+    },
+    44: { #dia 2.20
+        'frases': ['Noel: *"No meu rancho tenho algumas armaduras que usei na viagem, e aqui no estábulo ao lado tenho um cavalo que usei na jornada até o portal. Eu atualmente não tenho mais o tamanho para usar as armaduras, e até perdi a cavalgada e não consigo mais andar com o pé de pano."*|:one: - *"Posso olhar o cavalo?"*|:two: - *"Posso ver as armaduras?"*'],
+        'proximos_estados':{
+            '1': 47, #dia 2.23
+            '2': 48 #dia 2.24
+        }
+    },
+    46: { #dia 2.22
+        'frases': ['Caminhando até o sofá, você se depara com uma foto de dois homens, então acaba esquecendo dos itens e se interessando pela história deste cara misterioso.|Você: *"Você é o homem do quadro então, quem é esse ao seu lado? quem é voĉe?"*|Noel: *"Bom, me chamo Noel, e acredito que ja deve saber como funciona este mundo... Este ao meu lado é meu amigo e fomos os únicos que conseguiram se encontrar até hoje, porém no dia em que faríamos o desafio final do livro, Martin pulou no portal, e eu não tive coragem de fazer o mesmo, desde então nunca mais eu o vi, e minha pulseria ja parou de brilhar, acredito que ele tenha morrido e eu perdi a chance de voltar para a casa, também não consegui voltar para a vila e contar a todos o que aconteceu."*|Você: *"Nossa, eu ainda nem encontrei meu amigo, só que com tudo que o senhor me disse me deixou extremamente preocupado com o que pode acontecer, mas acho que tanto ele como eu queremos voltar as nossas vidas normais, alias...."*|:one: - *"Será que você poderia me ajudar com alguns itens?"*'],
+        'proximos_estados':{
+            '1': 44 #dia 2.20
+        }
+    },
+    47: { #dia 2.23
+        'frases': ['Noel: *"Claro, me acompanhe"*|```Noel leva você até o lado de fora da cabana, onde esta o cavalo```|Noel: *"Esse é o pé de pano, é um cavalo extremamente dócil e saudável, trato ele como meu filho, é o unico companheiro que tenho, mas ele sente muito falta de correr pelos campos e infelizmente não consigo mais levá-lo, se quiser pode ficar com ele, acredito que será de grande ajuda na sua jornada e também irá fazer pé de pano mais feliz."*|Você: *"É um cavalo bonito, não acredito que ele está a tanto tempo sem correr, seu porte ainda está incrível... Eu aceito ficar com pé de pano."*|Noel: *"Ótimo, quer dar uma olhada nas armaduras?"*|:one: - *"Sim, vamos lá."*|:two: - *"Agora não, preciso ir. Mas muito obrigado por toda a ajuda."*'],
+        'proximos_estados':{
+            '1': 49, #dia 2.25
+            '2': 50 #dia 2.26
+        }
+    },
+    48: { #dia 2.24
+        'frases': ['```Você e Noel caminham até o rancho do lado de fora da cabana```|Noel: *"Aqui está, essas foram as roupas que utilizei durante toda minha jornada de sair deste mundo, a maioria está bem danificada, exceto essa daqui do canto, era a roupa que eu teria que utilizar no dia do desafio final..."*|Noel puxa então uma armadura completa de ferro de dentro do armário, a armadura se encontra novinha, sem nenhum arranhão, junto dela, Noel ainda lhe oferece a sua espada.|:one: - Aceitar o armamento e perguntar pelo cavalo.|:two: - Aceitar o armamento e ir para casa.'],
+        'proximos_estados':{
+            '1': 52, #dia 2.28
+            '2': 53 #dia 2.29
+        }
+    },
+    49: { #dia 2.25
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    50: { #dia 2.26
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    51: { #dia 2.27
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    52: { #dia 2.28
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    53: { #dia 2.29
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    54: { #dia 2.30
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    55: { #dia 2.31
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    56: { #dia 2.32
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    57: { #dia 3.0
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    }
 }
 
 partidas = {}
 
         'frases': [''],
         'proximos_estados':{
-            
+
         }
