@@ -71,7 +71,7 @@ async def on_message(msg):
             #
             # Cria uma lista de frases usando o delimitador '|' e envia uma a uma
             [await msg.channel.send(i) for i in choice(estados[value]['frases']).split('|')]
-        return
+            return
     #
     # Sempre responder ao usuário (dica ou não)
     if partidas[autor]['estado'] == 0:
