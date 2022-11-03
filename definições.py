@@ -362,17 +362,163 @@ estados = {
         }
     },
     56: { #dia 2.32
-        'frases': [''],
+        'frases': ['Ao perceber a aproximação dos lobos, você começa a correr com pé de pano e consegue fugir de alcateia e chegar na vila em segurança.|Você se encontra extremamente cansado, ao chegar vai direto para o estábulo deixar o pé de pano e em seguida ja vai para casa do aldeão para descansar.|:one: - Continuar história...'],
         'proximos_estados':{
-
+            '1': 57
         }
     },
     57: { #dia 3.0
+        'frases': ['```CHECKPOINT```|Dia 3- Você acorda decidido que hoje será o dia que você irá atrás de seu amigo perdido para que consigam chegar ao portal juntos e enfim ir para casa, porém o clima na rua está realmente muito frio, com certos flocos de neve caindo.|```Indo ao estábulo do Pé de pano```|Chegando lá, você repara que ele está meio cabisbaixo, parecendo estar doente, justamente por causa do clima, ele realmente seria útil na jornada atrás do seu amigo.|:one: - Pedir ajuda ao aldeão.|:two: - Continuar sem o pé de pano.'],
+        'proximos_estados':{
+            '1': 58,
+            '2': 59
+        }
+    },
+    58: { #dia 3.1
+        'frases': ['Chegando na casa do agricultor você pergunta se ele tem alguma comida que faça o seu cavalo se sentir bem, como uma maçã ou uma cenoura|Aldeão: "Temos sim, geralmente usamos alguma fruta ou legume dourado para alimentar os animais doentes, eles ficam guardados fora da vila, em um galpão na floresta aqui do lado, se quiser ir lá, basta pegar uma maçã dourada em baixo do fardo de feno número 3, mas cuidado com os outros, eles têm baús armadilha em baixo".|Você: "Ok eu acho que...|:one: - ...vou até o galpão buscar então"|:two: - ...vou continuar sem o pé de pano mesmo, se puder olhar o que aconteceu com ele eu agradeço"'],
+        'proximos_estados':{
+            '1': 60,
+            '2': 77
+        }
+    },
+    59: { #dia 3.2
+        'frases': ['Você optou por continuar nessa jornada de encontrar seu amigo sem o pé de pano, atualmente você ainda não tem nenhuma pista do que pode ser feito para chegar até seu companheiro, mas está caminhando em direção ao sul e procurando por pistas.|O que deseja fazer?|:one: - Seguir em direção a floresta ao sul e acreditar que irá encontrar alguma pista.|:two: - Procurar ajuda em uma cabana que avistou ao horizonte.'],
+        'proximos_estados':{
+            '1': 73,
+            '2': 74
+        }
+    },
+    60: { #dia 3.3
+        'frases': ['```Indo até o galpão```|Chegando lá perto da floresta você avisat um galpão com alguns blocos de trigos jogados pelo lado de fora e um cercado de porcos ao lado, assim que você entra percebe uma estrutura um pouco antiga, e logo ao fundo do galpão pode-se avistar 3 fardos de feno com uns quadros em cima.|No quadro do fardo da esquerda está escrito: O número deste fardo é o resultado da equação (7x5 + 2² - 2⁴)⁰;|No quadro do fardo do meio está escrito: O número deste fardo é a divisão da fração irredutivel da fração 1244/622;|No quadro do fardo da direita está escrito: O número deste fardo são o numero de olhos que um ser humano possúi.|**Qual fardo você irá olhar em baixo?**|:one: - Olhar em baixo do fardo a esquerda|:two: - Olhar em baixo do fardo do meio|:three: - Olhar em baixo do fardo a direita'],
+        'proximos_estados':{
+            '1': 61,
+            '2': 62,
+            '3': 63
+        }
+    },
+    61: { #dia 3.4
+        'frases': ['Todo número elvado a 0 acaba se tornando 1, e como o aldeão mesmo disse, era necessário tomar cuidado com as armadilhas.|Ao abrir o baú, o chão acaba se abrindo com um mecanismo de redstone e você cai em uma Piscina de lava.**Você morreu**|:one: - Voltar ao último CHeckpoint'],
+        'proximos_estados':{
+            '1': 57
+        }
+    },
+    62: { #dia 3.5
+        'frases': ['A fração irredutivel da fraçao mostrada seria igual a 2/1 então o resultado é 2, e como o aldeão mesmo disse, era necessário tomar cuidado com as armadilhas.|**Você morreu**|:one: - Voltar ao último CHeckpoint'],
+        'proximos_estados':{
+            '1': 57
+        }
+    },
+    63: { #dia 3.6
+        'frases': ['Em todo homem haverá 2 olhos que veem e um que será cego - Enzoquiel 24,18|*Biblia dos Patetas*|Ao olhar em baixo deste fardo você acha um baú com alguns itens dourados dentro, então pega uma maçã dourada e resolve levar até o vilarejo para dar ao seu cavalo.|:one: - Continuar história'],
+        'proximos_estados':{
+            '1': 64
+        }
+    },
+    64: { #dia 3.7
         'frases': [''],
         'proximos_estados':{
-
         }
-    }
+    },
+    664: { #dia 3.8
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    65: { #dia 3.9
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    66: { #dia 3.10
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    67: { #dia 3.11
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    68: { #dia 3.12
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    69: { #dia 3.13
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    70: { #dia 3.14
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    71: { #dia 3.15
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    72: { #dia 3.16
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    73: { #dia 3.17
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    74: { #dia 3.18
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    75: { #dia 3.19
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    76: { #dia 3.20 (Diálogo)
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    77: { #dia 3.21
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    78: { #dia 3.22
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    79: { #dia 3.23
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    80: { #dia 3.24
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    81: { #dia 3.25
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    82: { #dia 3.26
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
+    83: { #dia 3.27
+        'frases': [''],
+        'proximos_estados':{
+        }
+    },
 }
 
 partidas = {}
