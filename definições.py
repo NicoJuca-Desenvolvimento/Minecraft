@@ -415,23 +415,30 @@ estados = {
         }
     },
     64: { #dia 3.7
-        'frases': [''],
+        'frases': ['Chegando de volta na vila o aldeão te leva até seu cavalo que  parece estar cada vez pior por causa do frio, então você pega a maça dourada da sua bolsa.|:one: - Dar a maçã ao cavalo.|:two: - Comer a maçã para experimentar'],
         'proximos_estados':{
+            '1': 664,
+            '2': 65
         }
     },
     664: { #dia 3.8
-        'frases': [''],
+        'frases': ['Você então começou a se aproximar do pé de pano com a maçã. Lentamente ele cheira e fica um pouco desconfiado, mas arrisca mordê-la, e no mesmo instante parece se sentir muito melhor. Assim comendo toda a maçã e ficando com muita saúde.|***UM BRILHO EXTREMO VEM DE BAIXO***|Você logo olha direto para sua pulseira que começou a emitir uma luz extrema, e a pupila central começa a olhar para o nordeste. Então montas no cavalo e segue nessa direção em busca do seu amigo.|Passando de 20 min de cavalgada você percebe que esqueceu seu armamento na casa do aldeão...|:one: - Voltar e buscar o armamento.|:two: - Continuar cavalgando em direção ao seu amigo.'],
         'proximos_estados':{
+            '1': 66,
+            '2': 67
         }
     },
     65: { #dia 3.9
-        'frases': [''],
+        'frases': ['Quando você morde a maça o aldeão começa a gritar com você.|Aldeão: "VOCÊ É LOUCO?! Essa maça vai te matar, o ouro não é feito p@a.. ós... se...aluc..."|**Você morreu**|:one: - Voltar para o checkpoint.'],
         'proximos_estados':{
+            '1': 57
         }
     },
     66: { #dia 3.10
-        'frases': [''],
+        'frases': ['Na volta pé de pano parece estar melhor que antes, então chegando na vila em menos de 15 minutos você logo pega suas armaduras e a espada de ferro. Porém antes de sair o aldeão te chama.|Aldeão: "Já encontrou seu amigo?"|Você: "Ainda não, mas estou indo agora!"|:one: - Continuar em busca do seu amigo|:two: - Perguntar ao aldeão se ele sabe de algo.'],
         'proximos_estados':{
+            '1': 70,
+            '2': 71
         }
     },
     67: { #dia 3.11

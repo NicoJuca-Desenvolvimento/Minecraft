@@ -10,6 +10,7 @@ load_dotenv()
 
 intents = discord.Intents.default()
 intents.message_content = True
+prefix = '%'
 bot = commands.Bot(intents=intents, command_prefix='')
 
 
@@ -21,11 +22,15 @@ async def on_ready():
 @bot.event
 async def on_message(msg):
     #
-    # Testar se o autor é um bot (msg.author.bot é verdadeiro)
-    # e, se for, simplesmente ignorar a mensagem
     if msg.author.bot:
         return
     autor = msg.author.id
+    #
+    #
+    if msg.content.strip()[0] == prefix:
+        mensagem = msg.content.strip()[1:]
+    else:
+        return
     #
     # Testar se o canal é pvt (msg.channel.type.name == 'private')
     # e, se for, avisar o jogador
