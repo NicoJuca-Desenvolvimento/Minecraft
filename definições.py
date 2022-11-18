@@ -442,90 +442,358 @@ estados = {
         }
     },
     67: { #dia 3.11
-        'frases': [''],
+        'frases': ['Você vai na direção que seu olho está olhando, já com o sol se pondo você percebe o brilho extremo da sua pulseira, simplesmente não fica escuro a sua volta.|Pé de pano parece cansado da grande cavalgada.|:one: - Fazer uma fogueira e descansar.|:two: - Forçar pé de pano a cavalgada.'],
         'proximos_estados':{
+            '1': 68,
+            '2': 69
         }
     },
     68: { #dia 3.12
-        'frases': [''],
+        'frases': ['Depois de amarrar o pé de pano em uma cerca, o fogo começa a soltar labaredas.|Maravilha!! A fogueira já já estará acessa. Com a fogueira em chamas, você prepara um acolchoado para dormir...|No meio da noite pé de pano começa a relinchar muito, vocês estão sendo atacados por um exército de esqueletos. Tentando procurar algo para se defender uma enxurrada de flechas acaba te atingindo|**Você Morreu**|:one: - Voltar ao último CHeckpoint'],
         'proximos_estados':{
+            '1': 57
         }
     },
     69: { #dia 3.13
-        'frases': [''],
+        'frases': ['Ao continuar pela madrugada, pé de pano exausto diminui um pouco o ritmo de sua corrida, você bate com pé para ele ir mais rápido, porém nesse mesmo instante ele tropeça em uma pedra. Pedra essa que você bate com a cabeça e acaba tendo um traumatismo craniano.|**Você Morreu**|:one: - Voltar ao último CHeckpoint'],
         'proximos_estados':{
+            '1': 57
         }
     },
     70: { #dia 3.14
-        'frases': [''],
+        'frases': ['Depois de sair da vila e continuar sua cavalgada, um lindo por do sol vai se formando.Com essa bela paisagem vem um pensamento muito duvidoso sobre como será que seu amigo descobriu sobre a história. Cada vez mais decidido a sair deste lugar, você da um comando para que pé de pano acelere sua cavalgada.|```Já na parte da noite```|Sua pulseira começa a ter um brilho cada vez mais grande, tão grande que reflete logo a frente no riacho... Não, aquela não é sua luz. Ao se aproximar é possível enxergar a pessoa que está portando essa luz|:one: - Chegar calmamente perto do riacho.|:two: - Esperar que a luz se aproxime.'],
         'proximos_estados':{
+            '1': 79,
+            '2': 80
         }
     },
     71: { #dia 3.15
-        'frases': [''],
+        'frases': ['Você: "Antes de eu ir, o senhor sabe de algo que possa me ajudar a encontrá-lo?"|Aldeão: "Que bom que perguntou, existe uma lenda que diz que se você subir em um monte e apontar sua pulseira em direção a lua junto com seu amigo, as oito horas da noite em ponto, um portal se abrirá e os dois irão se encontrar."|:one: - Acreditar no aldeão e esperar o anoitecer.|:two: - Continuar sua jornada com pé de pano.'],
         'proximos_estados':{
+            '1': 72,
+            '2': 70
         }
     },
     72: { #dia 3.16
-        'frases': [''],
+        'frases': ['Após muito tempo descansando e pensando sobre essa maldita lenda que o aldeão lhe falou, agora são 19:00, você precisa começar a subir em algum monte da região, então se levanta da sua cama e pega o pé de pano e tambem uma tocha, que não foi de grande ajuda ja que a pulseira já iluminava uma área gigantesca e também afastava os monstros que se encontravam na planicie.|```Tempo depois...```|Chegou a hora, você olha em seu relógio e são 8 horas em ponto, então amarra o pé de pano em uma arvore e levanta seu braço apontando a pulseira para a lua, assim começa a se formar um enorme portal vermelho um pouco mais a sua frente, o frio ja não é mais um problema, faíscas saem para todo o lado e toda a neve ao redor derrete, depois de alguns minutos um corpo atravessa o portal e cai em sua frente, você o encontrou!|:one: - Correr em sua direção.|:two: - Chamar pelo nome de seu amigo.'],
         'proximos_estados':{
+            '1': 76,
+            '2': 78
         }
     },
     73: { #dia 3.17
-        'frases': [''],
+        'frases': ['Mesmo caminhando muitos quilometros por dentro da floresta, você ainda não encontrou nenhuma pista para ajudar a encontrar seu amigo, você entra em uma pequena caverna pois percebe certa luminosidade vindo de lá, mas era apenas lava, tentando voltar para sair da caverna, percebe que está cercado de aranhas e você não tem pra onde ir, para um lado existe uma imensa poça de lava e para o outro tem mais de 10 aranhas gigantes.|**Você Morreu**|:one: - Voltar ao último CHeckpoint'],
         'proximos_estados':{
+            '1': 57
         }
     },
     74: { #dia 3.18
-        'frases': [''],
+        'frases': ['Indo em direção a cabana, é possível identificar que tem alguem lá dentro, você ve alguns vultos passando na frente da janela e fumaça saindo pela chaminé, ainda da tempo de voltar atrás se você achar melhor.|:one: - Continuar caminhando pela floresta.|:two: - Ir para a cabana.'],
         'proximos_estados':{
+            '1': 73,
+            '2': 75
         }
     },
     75: { #dia 3.19
-        'frases': [''],
+        'frases': ['Ao continuar se aproximando da cabana, percebe algumas coisas estranhas ao seu redor, como cordas e arames, mas prefere ignorar e seguir em frente, porém, ao chegar mais próximo, acaba cainda em uma armadilha, rapidamente uma rede lhe deixa pendurado de ponta cabeça e diversas flechas voam em sua direção.|**Você Morreu**|:one: - Voltar ao último CHeckpoint'],
         'proximos_estados':{
+            '1': 57
         }
     },
     76: { #dia 3.20 (Diálogo)
-        'frases': [''],
+        'frases': ['```Checkpoint```|Você chega abraçando seu amigo como se não houvesse amanhã, é muito bom ter reencontrado ele depois de alguns dias de sufoco nesse mundo.|Você: "Joelinto, que bom te ver irmão, eu estou doido para sair desse lugar, apesar das pessoas que encontrei aqui e o pé de pano, não há nada como a minha familia e minha casa!"|Joelinto: "Pois então cara, eu já não aguento mais esse lugar, e pelo visto sua jornada foi bem pacífica, até um cavalo você trouxe. Já eu só ganhei cicatrizes até chegar aqui, tive que coletar ossos de animais para me armar contra aqueles malditos zumbis, além de ter que minerar em uma ravina de dragões atrás desses ferros para fazer um armamento bom. Mas eu acho que as histórias ficam para depois que sairmos daqui, o que vamos fazer agora?"|Você: Nossa cara, que sufoco você passou, agora que nós estamos aqui juntos, a beira dessa gigantesca lua, que tal a gente descansar e sair para nossa jornada amanhã?|:one: - Descansar por ali mesmo e partir ao amanhecer.|:two: - Ir até a Vila.'],
         'proximos_estados':{
+            '1': 81,
+            '2': 82
         }
     },
     77: { #dia 3.21
-        'frases': [''],
+        'frases': ['Aldeão: "Certo, boa sorte na sua jornada guerreiro, eu vou fazer o possível para ajudar o pé de pano".|:one: - Continuar sem o pé de pano.'],
         'proximos_estados':{
+            '1': 59
         }
     },
     78: { #dia 3.22
-        'frases': [''],
+        'frases': ['Você: "JOÉLINTO? É VOCÊ MESMO!?"|Joélinto: "SIM IRMÃO, SOU EU, VENHA AQUI!"|Você corre então em direção a joélinto e lhe dá um abraço.|:one: - Começar diálogo.'],
         'proximos_estados':{
+            '1': 76
         }
     },
     79: { #dia 3.23
-        'frases': [''],
+        'frases': ['Ao se aproximar do riacho, você começa a desconfiar que aquela luz possa ser sim da outra pulseira, já que seu olho apontava diretamente naquela direção. O porte físico é identico ao do seu amigo.|:one: - Amarrar o pé de pano e ir até a pessoa.|:two: - Esperar que a pessoa venha até você.'],
         'proximos_estados':{
+            '1': 78,
+            '2': 80
         }
     },
     80: { #dia 3.24
-        'frases': [''],
+        'frases': ['Então você desmonta do pé de pano e coloca suas armaduras no corpo e aguarda encostado no seu cavalo.|```A pessoa se aproxima.```|Ainda que um pouco longe, você vê que é seu amigo!! Vocês se reencontraram.|:one: - Correr em sua direção.|:two: - Chamar pelo nome de seu amigo.'],
         'proximos_estados':{
+            '1': 76,
+            '2': 78
         }
     },
     81: { #dia 3.25
-        'frases': [''],
+        'frases': ['Os dois decidiram descansar por ali mesmo, juntam alguns arbustos, fazem 2 pequenas camas, jogam mais um pouco de lenha na fogueira que fizeram e vão se deitar...|Joélinto: "Boa noite amigo, é muito bom estar com você novamente"|Você: "Igualmente irmão, boa noite."|```3 horas da madrugada```|Joélinto: "Ei, acorda, mas não olhe para frente, apenas para o chão."|Você então acorda meio perdido e pergunta o que está acontecendo...|Joélinto: "É o seguinte, tem dois endermans aqui na nossa frente precisamos fazer alguma coisa..."|Você: "Mas, o que é um enderman?"|Joélinto: "É um monstro, ele deve ter mais de 2 metros e meio de altura, porém só vai nos atacar se olharmos nos olhos deles, vamos sair enquanto nada de ruim aconteceu."|:one: - Voltar para a vila.|:two: - Atacar os endermans.'],
         'proximos_estados':{
+            '1': 82,
+            '2': 83
         }
     },
     82: { #dia 3.26
-        'frases': [''],
+        'frases': ['Os dois sobem no pé de pano, que vai caminhando calmamente até a vila, já que se encontra muito cansado. Ao chegar na vila, você apresenta joélinto aos aldeões, todos ficam espantados que vocês conseguiram se encontrar e estão dispostos a matar o dragão do fim. Depois de breves conversas com os habitantes da vila, joélinto vai para a cama dormir, e você deveria fazer o mesmo, afinal, amanhã será o grande dia.|:one: - Ir descansar.'],
         'proximos_estados':{
+            '1': 84
         }
     },
     83: { #dia 3.27
-        'frases': [''],
+        'frases': ['Você: "Joélinto, temos armaduras e espadas, vamos atacá-los, junto conseguimos, confie em mim..."|Vocês dois então se levantam, ainda olhando para baixo e colocam as armaduras, depois disso contam até 3 e cada um olha para os olhos de um enderman. Os endermans teleportam na direção de vocês ja dando um poderoso soco em cada um, por sorte as armaduras aguentaram, mas já deu para ver que esse não será um desafio fácil...|Passaram-se 3 minutos de batalhas e vocês ainda não conseguiram acertar 1 golpe nos endermans, a capacidade de teleportar deles é incrível e vocês dois ja se encontram muito machucados para continuar...|**Vocês morreram**|:one: - Voltar para o checkpoint.'],
         'proximos_estados':{
+            '1': 76
         }
     },
+    84: { #dia 4.0 AVISO
+        'frases': ['```CHECKPOINT```|A atenção no dia de hoje será muito mais do que necessária, ocorreram grandes desafios no decorrer das próximas 24h, se qualquer um dos dois não sobreviver, a história não poderá ser completa, por isso será exigida muita concentração as dicas.|:one: - Avançar História|:two: - Ler o livro.'],
+        'proximos_estados':{
+            '1': 85,
+            '2': 123
+        }
+    },
+    85: { #dia 4.0
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    86: { #dia 4.1
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    87: { #dia 4.2
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    88: { #dia 4.3
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    89: { #dia 4.4
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    90: { #dia 4.5
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    91: { #dia 4.6
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    92: { #dia 4.7
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    93: { #dia 4.8
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    94: { #dia 4.9
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    95: { #dia 4.10
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    96: { #dia 4.11
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    97: { #dia 4.12
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    98: { #dia 4.13
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    99: { #dia 4.14
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    100: { #dia 4.15
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    101: { #dia 4.16
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    102: { #dia 4.17
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    103: { #dia 4.18
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    104: { #dia 4.19
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    105: { #dia 4.20
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    106: { #dia 4.21
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    107: { #dia 4.22
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    108: { #dia 4.23
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    109: { #dia 4.24
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    110: { #dia 4.25
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    111: { #dia 4.26
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    112: { #dia 4.27
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    113: { #dia 4.28
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    114: { #dia 4.29
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    115: { #dia 4.30
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    116: { #dia 4.31
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    117: { #dia 4.32
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    118: { #dia 4.33
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    119: { #dia 4.34
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    120: { #dia 4.35
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    121: { #dia 4.36
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    122: { #dia 4.37
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+    123: { #livro
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
+
 }
 
 partidas = {}
