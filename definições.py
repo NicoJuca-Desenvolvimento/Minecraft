@@ -1,8 +1,9 @@
 frases = {
-    'inventario_insuficiente': 'Sem os recursos necessários para avançar.',
+    'reiniciado': 'Jogo reiniciado (progresso do jogador apagado).',
+    'saindo': 'Tchau meu bem!',
     'canal_privado': 'Por favor, envie mensagens para mim através de canal compartilhado de texto (não pvt).',
     'sem_canal_de_voz': 'Por favor, esteja em um canal de voz para ter a imersão necessária do jogo.',
-    'erro': 'I\'m sorry Dave, I\'m afraid I can\'t do that.'
+    'erro': 'Eita jorge, deu erro nos compuiter'
 }
 
 estados = {
@@ -567,9 +568,10 @@ estados = {
         }
     },
     86: { #dia 4.1
-        'frases': [''],
+        'frases': ['Você: "Eai meu caro, vi que você estava me chamando antes, querias me dizer alguma coisa antes de partir?"|Aldeão: "Hmm, mas é claro que sim, aqui na vila, como já deve imaginar, temos alguns aventureiros que não conseguiram sair daqui, por isso alguns armamentos não foram utilizados em combate. Nós temos 2 armaduras completas de diamante e 2 espadas netherita, nós aqui da vila realmente acreditamos que você possa conseguir se salvar. Gostariamos de te dar esses armamentos como presente para sua jornada."|:one: - Ser modesto, mas não aceitar o armamento.|:two: - Agradecer e aceitar o armamento.'],
         'proximos_estados':{
-
+            '1': 124,
+            '2': 88
         }
     },
     87: { #dia 4.2
@@ -794,7 +796,13 @@ estados = {
             '1': 84
         }
     },
+    124: { #dia 4.38
+        'frases': [''],
+        'proximos_estados':{
+
+        }
+    },
 
 }
 
-partidas = {}
+Canais_de_voz = {}
