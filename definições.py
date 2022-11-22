@@ -161,7 +161,7 @@ estados = {
         }
     },
     23: { #livro
-        'frases': ['```Olá viajante, seja bem vindo ao mundo do MINECRAFT, eu sei que você não quer estar aqui assim como seu amigo. Ele não começou a jornada ao seu lado mas precisa terminar, para que isso seja concluido da forma correta é necessário juntar os olhos em seus pulsos em cima de uma piscina de lava na biblioteca sombria nos fundos de uma mina abandonada. Os olhos possuem um grande poder, quando os 2 viajantes descobrem como sair desse mundo, os olhos brilham como o sol e olham em direção ao seu olho irmão. Passando do portal você ainda não estará livre, no mundo do fim há um gigantesco desafio, assim como na era medieval voces terão de trabalhar em equipe para derrotar o dragão e assim se libertarem dessa criação.```|:one: - Voltar.'],
+        'frases': ['*"Olá viajante, seja bem vindo ao mundo do MINECRAFT, eu sei que você não quer estar aqui assim como seu amigo. Ele não começou a jornada ao seu lado mas precisa terminar, para que isso seja concluido da forma correta é necessário juntar os olhos em seus pulsos em cima de uma piscina de lava na biblioteca sombria nos fundos de uma mina abandonada.*|*Os olhos possuem um grande poder, quando os 2 viajantes descobrem como sair desse mundo, os olhos brilham como o sol e olham em direção ao seu olho irmão.*|*Para achar o portal, é necessário que vocês toquem os olhos 2 vezes um no outro, logo após isso, o olho irá lançar uma partícula em direção ao portal, quando vocês acharem o castelo, certifique-se que está seguro e então, vá em frente.*|*Passando do portal você ainda não estará livre, no mundo do fim há um gigantesco desafio, assim como na era medieval voces terão de trabalhar em equipe para derrotar o dragão e assim se libertarem dessa criação.*|*A principal característica desta batalha é rebater as bolas de magma que o dragão irá cuspir com uma espada de algum material resistente, afinal uma simples espada de ferro ou qualquer outro material frágil iria derreter. E depois que o dragão descer para atacar vocês, vocês devem revezar o ataque para golpeá-lo até a morte.*"|*Ah, eu quase me esqueci de uma informação importante, o dragão se recupera dos ferimentos se alimentando das energia que vem dos cristais do fim que estão acima das torres de obsidian, para quebrá-lo basta atirar uma flecha com o arco de Apolo, o mesmo arco que o Deus utilizou para matar a serpente. O arco se encontra no cofre, atras de uma parede de musgo dentro do castelo, a senha é 40028922. Boa sorte em sua jornada.*|:one: - Voltar para o último estado.'],
         'proximos_estados':{
             '1': 22
         }
@@ -805,4 +805,4 @@ estados = {
 
 }
 
-Canais_de_voz = {}
+canais_de_voz = {}
