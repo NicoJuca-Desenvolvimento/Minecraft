@@ -560,9 +560,10 @@ estados = {
         }
     },
     85: { #dia 4.0
-        'frases': [''],
+        'frases': ['Você acorda renovado, pronto para iniciar sua jornada junto com Joélinto. Então começa preparando sua primeira refeição com 2 pães e 1 maçã, além disso leva outra maçã ao pé de pano, voltando para a cabana você encontra seu amigo.|Você: "Opa irmão, bom dia! Está preparado para hoje?"|Joélinto: "Mais do que nunca, vou só tomar um café, buscar meu armameto e já te espero junto com o pé de pano."|De longe você vê o aldeão acenando para você, ele parece estar te chamando.|:one: - Ir até lá e ver o que ele quer.|:two: - Acenar de volta e ir buscar o armamento de FERRO'],
         'proximos_estados':{
-
+            '1': 86,
+            '2': 87
         }
     },
     86: { #dia 4.1
@@ -788,9 +789,9 @@ estados = {
         }
     },
     123: { #livro
-        'frases': [''],
+        'frases': ['*"Olá viajante, seja bem vindo ao mundo do MINECRAFT, eu sei que você não quer estar aqui assim como seu amigo. Ele não começou a jornada ao seu lado mas precisa terminar, para que isso seja concluido da forma correta é necessário juntar os olhos em seus pulsos em cima de uma piscina de lava na biblioteca sombria nos fundos de uma mina abandonada.*|*Os olhos possuem um grande poder, quando os 2 viajantes descobrem como sair desse mundo, os olhos brilham como o sol e olham em direção ao seu olho irmão.*|*Para achar o portal, é necessário que vocês toquem os olhos 2 vezes um no outro, logo após isso, o olho irá lançar uma partícula em direção ao portal, quando vocês acharem o castelo, certifique-se que está seguro e então, vá em frente.*|*Passando do portal você ainda não estará livre, no mundo do fim há um gigantesco desafio, assim como na era medieval voces terão de trabalhar em equipe para derrotar o dragão e assim se libertarem dessa criação.*|*A principal característica desta batalha é rebater as bolas de magma que o dragão irá cuspir com uma espada de algum material resistente, afinal uma simples espada de ferro ou qualquer outro material frágil iria derreter. E depois que o dragão descer para atacar vocês, vocês devem revezar o ataque para golpeá-lo até a morte.*"|*Ah, eu quase me esqueci de uma informação importante, o dragão se recupera dos ferimentos se alimentando das energia que vem dos cristais do fim que estão acima das torres de obsidian, para quebrá-lo basta atirar uma flecha com o arco de Apolo, o mesmo arco que o Deus utilizou para matar a serpente. O arco se encontra no cofre, atras de uma parede de musgo dentro do castelo, a senha é 40028922. Boa sorte em sua jornada.*|:one: - Voltar para o último estado.'],
         'proximos_estados':{
-
+            '1': 84
         }
     },
 
