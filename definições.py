@@ -575,75 +575,81 @@ estados = {
         }
     },
     87: { #dia 4.2
-        'frases': [''],
+        'frases': ['Você então entra na cabana onde está seu armamento de ferro, que parece estar bem gasto com a última viagem, porém o aldeão aparece na janela convidando você para ir até a casa do ferreiro junto com ele.|:one: - Ir até lá e perguntar o que ele quer.|:two: - Dizer que está com pressa e ir até o estábulo.'],
         'proximos_estados':{
-
+            '1': 86,
+            '2': 90
         }
     },
     88: { #dia 4.3
-        'frases': [''],
+        'frases': ['Você: "Muito obrigado mesmo, nem acredito que é sério! Meu deus muito obrigado, você não imagina como isso vai me ajudar, não vou ter que procurar por diamantes para gastar tempo, além de poder aguentar mais dano com isso, aquele dragão está frito.|Aldeão: "Claro que é sério, eu vou te dar de coração essa armadura para que você e seu amigo consigam derrotá-lo e por fim fiquem livres desse maldito mundo quadrado".|```Veste a armadura```|Você: "Nossa, é muito mais leve do que parece, me sinto muito rápido e ágil, e essa espada sinto que ela pode cortar qualquer coisa ao meio.|Depois de vestir a armadura e mostrar o quão satisfeito ficou, você vai até o pé de pano pronto para partir, e dá a armadura ao seu amigo, que recebeu ela muito bem também.|:one: - Continuar História.'],
         'proximos_estados':{
-
+            '1': 92
         }
     },
     89: { #dia 4.4
-        'frases': [''],
+        'frases': ['Chegando na cabana você abre o baú onde seu armamento está guardado, ele parece bem gasto da última aventura, porém você pega ele mesmo assiim e vai até o estábulo onde está seu amigo!|:one: - Continuar história.'],
         'proximos_estados':{
-
+            '1': 90
         }
     },
     90: { #dia 4.5
-        'frases': [''],
+        'frases': ['A partir de agora, as suas escolha ficaram limitadas, e apenas serão exigidas em momentos chave da história, para que você consiga sobreviver junto com seu amigo e por fim sair deste mundo.|```Chegando no estábulo```|Você chega junto de seu amigo e de pé de pano para partir emm sua missão, os dois montam no cavalo que parece não gostar do peso dos dois e das armaduras pesadas de ferro, foi mesmo uma boa escolha não ter visitado o aldeão?|:one: - Continuar história mesmo assim.|:two: - Voltar e falar com o aldeão.'],
         'proximos_estados':{
-
+            '1': 91,
+            '2': 86
         }
     },
     91: { #dia 4.6
-        'frases': [''],
+        'frases': ['Antes de sair vocês batem suas pulseiras uma na outra e elas soltam uma particula em direção ao sul, então vocês saem em uma jornada ao sol junto com o pé de pano.|Após apenas 30 min de caminhada o pé de pano parece exausto, então vocês decidem deixar ele descansando e tentar domesticar um cavalo para o Joélinto. Depois de muito procurar na planíce onde vocês estavam acabaram não achando nada. Vocês voltam até o pé de pano mas ele não está mais lá, alguns pillagers estão entrando na floresta e vocês correr atras deles, mas acabam caindo em uma armadilha de corda, é uma boa tentativa cortar a corda com a espada de ferro, mas ela parece ter perdido o corte durante esse tempo. Logo depois são comidos por uma tribo canibal.|**Vocês Morreram**|:one: - Voltar ao último checkpoint.'],
         'proximos_estados':{
-
+            '1': 84
         }
     },
     92: { #dia 4.7
-        'frases': [''],
+        'frases': ['A partir de agora, as suas escolha ficaram limitadas, e apenas serão exigidas em momentos chave da história, para que você consiga sobreviver junto com seu amigo e por fim sair deste mundo.|:one: - Entendido!'],
         'proximos_estados':{
-
+            '1': 93
         }
     },
     93: { #dia 4.8
-        'frases': [''],
+        'frases': ['Sobem os dois em cima do pé de pano, vocês batem suas pulseiras que solta uma particula em direção ao sul. O seu cavalo parece estar bem cansado devido ao peso, então vão em direção a uma planicie para achar um para o seu amigo. Depois de amarrar o pé de pano em uma tora e uns minutos procurando algum cavalo, é possível avistar um dentro da floresta, seu amigo começa o processo de domesticação e você volta até o pé de pano para esperar por Joélinto. Seu amigo está demorando então você vai atrás dele junto com o Pé de pano.|OH NÃO!! Joélinto está sendo atacado por uma horda de zumbis gigantesca.|:one: - Ficar Assistindo.|:two: - Ajudar seu amigo no combate.'],
         'proximos_estados':{
-
+            '1': 94,
+            '2': 95
         }
     },
     94: { #dia 4.9
-        'frases': [''],
+        'frases': ['Você fica olhando seu amigo que parece estar se dando muito bem contra a horda de zumbis por conta da armadura muito robusta e leve, mas não param de chegar zumbis.|Seu amigo começa a se dar mal e os zumbis estão subindo em cima dele. Chegando perto para ajuda-lo, os zumbis saem de cima do corpo do seu amigo, já sem vida.|**Joélinto morreu.**|:one: - Voltar ao último checkpoint.'],
         'proximos_estados':{
-
+            '1': 84
         }
     },
     95: { #dia 4.10
-        'frases': [''],
+        'frases': ['Você corre até seu amigo que já estava se dando bem contra a orda de zumbis, porém assim que se junta a ele começam a chegar muitos zumbis, as armaduras tem uma mobilidade extrema, e as espadas são afiadas ao máximo. Os dois se dão muito bem contra esses zumbis.|Após matarem todos e seu amigo ter domado o cavalo, vocês voltam a cavalgar em direção ao sul, dessa vez com mais velocidade, já que estão com dois cavalos.|:one: - Continuar história...'],
         'proximos_estados':{
-
+            '1': 96
         }
     },
     96: { #dia 4.11
-        'frases': [''],
+        'frases': ['Com mais algumas horas de cavalgada, você e Joélinto encontram o louco que brilha junto com a pulseira de ambos vocês, o local se trata de um pequeno castelo abandonado, cheio de teias de aranha e tochas apagadas. Vocês dois param em frente ao castelo antes de entrar, Joélinto então o pergunta o que vocês irão fazer.|:one: - Procurar por armadilhas.|:two: - Entrar no castelo.|:three: - Dar uma volta no castelo para matar todos os monstros antes de entrar.'],
         'proximos_estados':{
-
+            '1': 97,
+            '2': 98,
+            '3': 99
         }
     },
     97: { #dia 4.12
-        'frases': [''],
+        'frases': ['Vocês se dividem e caminham cuidadosamente próximos ao castelo, procurando por placas de pressão no solo, sistemas de redstone, fios, cordas, alavancas, botões ou qualquer coisa do tipo, porém não encontram nada, então podem entrar no castelo. Vocês dois se olham por alguns segundos e pelo olhar de seu amigo você percebe que está na hora de ir...|:one: - Continuar história...'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     98: { #dia 4.13
-        'frases': [''],
+        'frases': ['```Checkpoint```|Ao entrar, Joélinto junta uma tocha que estava jogada no chão e a acende, então a porta que utilizaram para entrar se fecha, e nela estava escrita a seguinte mensagem: *"Está porta não será mais utilizada, para este mundo você não voltará."*|Neste momento vocês dois se olham extremamente assustados, mas sabem que este é o único jeito de voltar para casa, então continuam andando pelo hall de entrada do castelo, olhando algumas decorações e procurando qual o próximo passo. Você encontra então um leitoril de mármore na frente de um grande quadro com uma foto de um dragão gigante atacando um vilarejo em chamas, Joélinto se aproxima do local, e vê um livro...|Joélinto: "Ei... venha aqui, olhe o que encontrei..."|Ao se aproximar, lá estava, o livro do fim em sua versão original.|:one: - Ler o livro.|:two: - Continuar procurando alguma saída.'],
         'proximos_estados':{
-
+            '1': 101,
+            '2': 100
         }
     },
     99: { #dia 4.14
@@ -653,87 +659,94 @@ estados = {
         }
     },
     100: { #dia 4.15
-        'frases': [''],
+        'frases': ['Por mais que tenham continuado procurando por muito tempo, acabam não encontranado nada, o que resta é abrir o livro e ver se tem algo de importante escrito lá.|:one: - Ler o livro.'],
         'proximos_estados':{
-
+            '1': 101
         }
     },
     101: { #dia 4.16
-        'frases': [''],
+        'frases': ['Os dois se posicionam em frente ao leitoril e se preparam para abrir o livro, porém ao abrí-lo, não encontram nada escrito, passam-se alguns segundos e então a tocha de joélinto se apaga, mas as pulseiras voltam a brilhar, e então uma voz misteriosa vem delas...|*Voz desconhecida: "Sejam muito bem-vindos ao castelo do fim, o local em que os verdadeiros guerreiros conseguem voltar para casa, e os fracos ficam aqui eternamente... Bom, deixem eu me apresentar, me chamo Némesis, a deusa que personifica o destino, equilíbrio e vingança divina, guardiã do castelo desde que a última dupla conseguiu voltar para casa, ou seja, desde sempre... Bom, o livro está em branco porque ele não pode ser lido durante o desafio final, então espero que lembre de tudo que nele dizia. Vou deixá-los seguirem o seu caminho a partir de agora, vou até ajudá-los um pouco...*|A tocha de Joélinto se acende novamente e as pulseiras se apagam, 1 porta se abre atrás de vocês, e uma parede fica coberta por musgo misteriosamente, ela aparenta estar com algumas pedras soltas.|:one: - Seguir pela porta.|:two: - Tirar as pedras soltas.'],
         'proximos_estados':{
-
+            '1': 102,
+            '2': 103
         }
     },
     102: { #dia 4.17
-        'frases': [''],
+        'frases': ['Ao entrar na porta, vocês se deparam com o portal que tanto ouviram falar, ao cair dentro dele, a batalha contra o Dragão do fim seria iniciada, mas vocês dois concordam que essa não é a melhor opção no momento, porém ao tentar voltar, a porta se fecha e os dois são sugados para dentro da batalha...|Agora não tem outra escolha, é lutar para sobreviver, mas por mais que atinjam o dragão, ele se cura de maneira muito rápida por causa dos cristais, vocês ficam muito cansados e não conseguem rebater a bola de magma.|**Vocês morreram**|:one: - Voltar ao checkpoint.'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     103: { #dia 4.18
-        'frases': [''],
+        'frases': ['Chegando perto da porta com a tocha, é possível ver o musgo se recolhendo, como se estivesse vivo. Depois de ele se recolher por total, é possível ver que as pedras soltas formam um círculo.|Vocês começam a retirar calmamente com medo de ser uma armadilha e visualizam um cofre do outro lado da parede.|Passando para o lado de lá o cofre parece ter uma senha, mas isso não é problema já que você leu o livro não é?|Qual a senha do cofre?|:one: - Número do SBT|:two: - Número PI|:three: - Número do Bom dia & Cia.'],
         'proximos_estados':{
-
+            '1': 104,
+            '2': 105,
+            '3': 106
         }
     },
     104: { #dia 4.19
-        'frases': [''],
+        'frases': ['Infelizmente o Silvio santos não te ajudou dessa vez, nem adianta pedir aviãozinho agora, o teto desaba em cima de vocês. Que não morrem esmagados graças a armadura, porém as pedras são muito pesadas e vocês não conseguem se mexer, então após alguns dias soterrados, acabam morrendo de asfixia.|**Vocês Morreram**|:one: - Voltar ao checkpoint.'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     105: { #dia 4.20
-        'frases': [''],
+        'frases': ['Infelizmente o número pi não te ajudou dessa vez, nem adianta fazer regra de 3 agora, o teto desaba em cima de vocês. Que não morrem esmagados graças a armadura, porém as pedras são muito pesadas e vocês não conseguem se mexer, então após alguns dias soterrados, acabam morrendo de asfixia.|**Vocês morreram.**|:one: - Voltar ao checkpoint.'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     106: { #dia 4.21
-        'frases': [''],
+        'frases': ['Parabéns aos 2, agora está na hora de ganhar o PlayStation 2, Brincadeira.|Assim que vocês digitam o tão famoso número, o cofre de metal começa a se abrir lentamente e é possível ver o arco no fundo, ele parece estar intacto, afinal niguém jamais abriu o cofre anteriormente. É compreensivel para seu amigo que o arco fique com você, afinal você ganhou um campeonato de dardos na escola quando era mais novo.|:one: - Ir em direção a porta'],
         'proximos_estados':{
-
+            '1': 107
         }
     },
     107: { #dia 4.22
-        'frases': [''],
+        'frases': ['Ao sair da sala do cofre, Joélinto e você vão em direção a porta que se abriu anteriormente, há um corredor muito grande a frente...|Assim que vocês passam pela porta é possível avistar um esqueleto, mas não um mob, e sim um corpo realmente, suas mãos estam segurando uma carta que dizia o seguinte:|```Olá, me chamo Martin, ou melhor, me chamava Martin... Duvido que alguém encontre essa carta enquanto eu estiver vivo. Deixe-me falar um pouco mais de minha história, eu tive uma experiencia terrível neste mundo, fui abandonado pelo homem que chegou nele comigo, estávamos prontos para o desafio mas ele não quis entrar nos castelo, então fiquei sozinho aqui, no momento em que escrevo esta carta, fazem 3 dias que estou aqui... Bom, vamos ao que lhe interessa, se você estiver aqui com seu companheiro, eu posso dar a vocês algumas dicas... Este tempo aqui eu li algumas escrituras, alguns livros velhos e descobri coisas importantes, inclusive a senha do cofre (caso tenha esquecido)  e o segredo das torres de obsidian... O unico meio de quebrá-las de forma que elas não se regenerem é começando da torre mais alta para a mais baixa, até que nenhum dos cinco cristais estejam funcionando.```|:one: - Continuar até a porta.'],
         'proximos_estados':{
-
+            '1':108
         }
     },
     108: { #dia 4.23
-        'frases': [''],
+        'frases': ['Ao chegar na porta que tinha aparecido quando a voz misteriosa sumiu, Joélinto entra na frente, sem pensar duas vezes, e então você entra logo atrás dele, lá dentro havia o portal, que levaria a terra do dragão, o desafio final, porém ele não parece ativado, falta algo para ativá-lo...|Joélinto: "Ei, olhe aqui, a placa está escrita em inglês... consegue ler?"|*To activate the portal, it is necessary that the two bracelets point to the center of the portal, otherwise this room will be covered by lava, you have 1 minute from the moment you entered the door...*|:one: - Bater as pulseiras|:two: - Jogar as pulseiras no portal.|:three: - Apontar as pulseiras para o centro do portal.'],
         'proximos_estados':{
-
+            '1': 109,
+            '2': 110,
+            '3': 111
         }
     },
     109: { #dia 4.24
-        'frases': [''],
+        'frases': ['Não era isso que deveria ser feito, a sala ficou coberta de lava...|**Vocês morreram**|:one: - Voltar para o checkpoint.'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     110: { #dia 4.25
-        'frases': [''],
+        'frases': ['Não era isso que deveria ser feito, a sala ficou coberta de lava...|**Vocês morreram**|:one: - Voltar para o checkpoint.'],
         'proximos_estados':{
-
+            '1': 98
         }
     },
     111: { #dia 4.26
-        'frases': [''],
+        'frases': ['Vocês fizeram uma boa escolha, o chão começa a estremecer e uma luz começa a sair do portal, que então emite um brilho muito forte e depois disso é possivel ver uma espécie de buraco negro, um portal para o espaço, só é possivel ver algumas estrelas e um fundo preto...|:one: - Entrar.|:two: - Desistir.'],
         'proximos_estados':{
-
+            '1':112,
+            '2':113
         }
     },
     112: { #dia 4.27
-        'frases': [''],
+        'frases': ['```CHECKPOINT```|Vocês se olham fixamente e os dois acenam com a cabeça, tudo indica que está na hora do desafio final. Quando entram no portal vocês sentem que uma queda imensa esta por vir, mas em algum instante vocês são barrados por uma base de obsidian.|Um rugido estridente vem da ilha logo a frente de vocês, quando se olha para baixo um nada imenso, e para frente uma ponte para a ilha, mesmo tremendo de medo os dois vão avançando e subindo uma certa montanha e chegando lá em cima uma planície gigantesca a frente, e do nada um dragão vem do horizonte  cuspindo fogo, para não morrer cada um pula para o lado e vocês percebem que é naquele momento que a batalha começa.|:one: - Avançar para a batalha.'],
         'proximos_estados':{
-
+            '1': 114
         }
     },
     113: { #dia 4.28
-        'frases': [''],
+        'frases': ['Desistir na reta final do jogo fará com que você volte para o inicio, Talvez seja melhor vocês aceitarem o desafio...|:one: - Pular no portal.|:two: - Voltar para o inicio do jogo.'],
         'proximos_estados':{
-
+            '1': 112,
+            '2': 2
         }
     },
     114: { #dia 4.29
