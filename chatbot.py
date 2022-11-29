@@ -112,7 +112,7 @@ async def on_message(msg):
             # toca no canal de voz do jogador
             if msg.channel.type.name != 'private':
                 arquivo_de_som = str(value) + '.mp3'
-                if exists('Música/' + arquivo_de_som):
+                if exists('audio/' + arquivo_de_som):
                     #
                     # Conectar no canal de áudio e emitir o som
                     som_opus = await discord.FFmpegOpusAudio.from_probe(arquivo_de_som)
