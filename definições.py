@@ -771,40 +771,36 @@ estados = {
         }
     },
     117: { #dia 4.32
-        'frases': [''],
+        'frases': ['Você desvia mas Joélinto fica e consegue dar alguns golpes no dragão...|Joélinto: "Ei irmão, não fuja dos ataques corpo a corpo, é a nossa única chance de atacá-lo de volta."|Espero que tenha entendido a mensagem, Joélinto está certo, mas preste atenção no campo de batalha... Uma bola de magma está indo em direção a Joélinto e ele está lutando contra um enderman.|:one: - Tentar avisá-lo.|:two: - Pular na frente da bola de magma.'],
         'proximos_estados':{
-
+            '1': 119,
+            '2': 120
         }
     },
     118: { #dia 4.33
-        'frases': [''],
+        'frases': ['Você decide atacar o dragão e Joélinto faz o mesmo, vocês conseguiram machucar muito o dragão, talvez baste apenas mais um ataque para que tudo isso acabe, vocês se olham com um sorriso imenso no rosto, mas foquem na batalha... O dragão se prepara para outro ataque corpo a corpo.|:one: - Contra-atacar!!'],
         'proximos_estados':{
-
+            '1': 122
         }
     },
     119: { #dia 4.34
-        'frases': [''],
+        'frases': ['Você gritou, mas Joélinto não teve reflexo suficiente para conseguir rebate-lá, ele foi atingido e arremessado ao buraco negro sem fim... Você terá que continuar sem ele se quiser ficar vivo e sair deste mundo.|O dragão está vindo em sua direção para outro ataque corpo-a-corpo, Joélinto conseguiu causar muito dano no primeiro golpe, tome sua decisão!|:one: - Pular junto com seu amigo. (Volta para o inicio do jogo)|:two: - Atacar o dragão.'],
         'proximos_estados':{
-
+            '1': 1,
+            '2': 121
         }
     },
     120: { #dia 4.35
-        'frases': [''],
+        'frases': ['Você pula para salvar Joélinto, a armadura conseguiu absorver boa parte do impacto, mas mesmo assim vocês foram arremessados para a beira do abismo... Bom, pelo menos estão vivos, levantem-se e preparaem para o próximo ataque do dragão, é a chance de acabarem com ele...|:one: - Contra-atacar!!'],
         'proximos_estados':{
-
+            '1':122
         }
     },
     121: { #dia 4.36
-        'frases': [''],
-        'proximos_estados':{
-
-        }
+        'frases': ['Está feito! O golpe final foi dado, o dragão cai no chão e começa a virar partículas, então as particulas começam a ir todas na mesma direção, para o centro da ilha, você corre junto com as partículas e então ja consegue ver o portal, sua armadura e arma somem, não existe mais nenhum perigo, e então você se joga como se não houvesse amanhã para dentro do portal...|Você escuta então um som muito agudo, mas não enxerga nada, está tudo preto... Mas passaram-se alguns segundos e você começa a abrir os olhos.|Mãe:"Filho, você vai perder a hora, vá se arrumar para o colégio!"|Você:"Pera, como eu vim para casa?"|Mãe: "Pergunta besta, você chegou de bicicleta ontem depois da aula junto com Joélinto... vamos, se arrume."|Agora que você se lembra de Joélinto, você tentou ligar para ele mas ninguém atende e você não o encontra na escola... Talvez aquilo não tenha sido só um sonho.|```Fim, você conseguiu```|Digite "Reiniciar caso queira jogar novamente! Obrigado por jogar.'],
     },
     122: { #dia 4.37
-        'frases': [''],
-        'proximos_estados':{
-
-        }
+        'frases': ['Está feito! O golpe final foi dado, o dragão cai no chão e começa a virar partículas, então as particulas começam a ir todas na mesma direção, para o centro da ilha, vocês correm junto com as partículas e então ja conseguem ver o portal, suas armaduras e armas somem, não existe mais nenhum perigo, e então se jogam como se não houvesse amanhã para dentro do portal...|Você escuta então um som muito agudo, mas não enxerga nada, está tudo preto... Mas passaram-se alguns segundos e você começa a abrir os olhos.|Mãe:"Filho, você vai perder a hora, vá se arrumar para o colégio!"|Você:"Pera, como eu vim para casa?"|Mãe: "Pergunta besta, você chegou de bicicleta ontem depois da aula... vamos, se arrume."|```Fim, você conseguiu```|Digite "Reiniciar caso queira jogar novamente! Obrigado por jogar.'],
     },
     123: { #livro
         'frases': ['*"Olá viajante, seja bem vindo ao mundo do MINECRAFT, eu sei que você não quer estar aqui assim como seu amigo. Ele não começou a jornada ao seu lado mas precisa terminar, para que isso seja concluido da forma correta é necessário juntar os olhos em seus pulsos em cima de uma piscina de lava na biblioteca sombria nos fundos de uma mina abandonada.*|*Os olhos possuem um grande poder, quando os 2 viajantes descobrem como sair desse mundo, os olhos brilham como o sol e olham em direção ao seu olho irmão.*|*Para achar o portal, é necessário que vocês toquem os olhos 2 vezes um no outro, logo após isso, o olho irá lançar uma partícula em direção ao portal, quando vocês acharem o castelo, certifique-se que está seguro e então, vá em frente.*|*Passando do portal você ainda não estará livre, no mundo do fim há um gigantesco desafio, assim como na era medieval voces terão de trabalhar em equipe para derrotar o dragão e assim se libertarem dessa criação.*|*A principal característica desta batalha é rebater as bolas de magma que o dragão irá cuspir com uma espada de algum material resistente, afinal uma simples espada de ferro ou qualquer outro material frágil iria derreter. E depois que o dragão descer para atacar vocês, vocês devem revezar o ataque para golpeá-lo até a morte.*"|*Ah, eu quase me esqueci de uma informação importante, o dragão se recupera dos ferimentos se alimentando das energia que vem dos cristais do fim que estão acima das torres de obsidian, para quebrá-lo basta atirar uma flecha com o arco de Apolo, o mesmo arco que o Deus utilizou para matar a serpente. O arco se encontra no cofre, atras de uma parede de musgo dentro do castelo, a senha é 40028922. Boa sorte em sua jornada.*|:one: - Voltar para o último estado.'],
@@ -813,9 +809,10 @@ estados = {
         }
     },
     124: { #dia 4.38
-        'frases': [''],
+        'frases': ['Você: "Muito obrigado! Mas eu já me acostumei com meus apetrexos de ferro e minha espada, vou seguir com eles mesmo."|O aldeão insiste que fique com a armadura, ela é muito mais leve do que realmente parece|:one: - Agradecer e aceitar o armamento de diamante|:two: - Ir buscar o armamento'],
         'proximos_estados':{
-
+            '1': 88,
+            '2': 89
         }
     },
 
