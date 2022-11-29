@@ -750,21 +750,24 @@ estados = {
         }
     },
     114: { #dia 4.29
-        'frases': [''],
+        'frases': ['Depois de desviarem da bola de magma do dragão, percebe-se que as orientações para a batalha estavam corretas, então vão em direção as torres logo a frente para evitar que o dragão se cure. Então vocês começam pela...|:one: - Torre mais alta.|:two: - Torre mais proxima.'],
         'proximos_estados':{
-
+            '1': 115,
+            '2': 116
         }
     },
     115: { #dia 4.30
-        'frases': [''],
+        'frases': ['O dragão estava se alimentando da torre mais alta, parecia que ele estava abdusindo algo de cima da torre, então você logo saca o arco de Apolo e mira em direção ao que o dragão estava "Chupando". A flecha vai e........ BOOM!!! Em cheio, o dragão parece ter sofrido dano, é uma boa esperar até que ele  comece a se curar para atingir as torres. E assim vai se procedendo essa parte da batalha, o dragão tenta se curar mas ao sugar a energia você destrói os cristais em cima das torres. Até que na 5ª flecha o dragão passa na frente e você acaba errando, resta apenas mais 1 flecha, é sua ultima chance.|Você está um pouco nervoso e tremendo por causa da tensão, então decide dar o arco para seu amigo. Ele aceita e consegue destruir o últiumo cristal, e agora vai começar a parte mais difícil da batalha.|O dragão vem na direção de vocês, ele tentará um ataque corpo a corpo...|:one: - Desviar.|:two: - Atacá-lo de volta.'],
         'proximos_estados':{
-
+            '1': 117,
+            '2': 118
         }
     },
     116: { #dia 4.31
-        'frases': [''],
+        'frases': ['Por mais que atirar no cristal da torre mais próxima tenha o destruido, ele começa a se regenerar e o dragão não se fere, você gasta mais uma flecha mas o cristal se recupera novemente, agora com apenas 4 flechas sobrando, vocês nunca conseguirão abater o dragão, a batalha deixouvocês exaustos, e então...|**Você morreu**|:one: - Voltar ao ultimo checkpoint.|:two: - Voltar para a carta.'],
         'proximos_estados':{
-
+            '1': 112,
+            '2': 107
         }
     },
     117: { #dia 4.32
