@@ -653,9 +653,10 @@ estados = {
         }
     },
     99: { #dia 4.14
-        'frases': [''],
+        'frases': ['Vocês dois vestem as armaduras, pegam suas espadas e rondam toda a área próxima ao castelo, no caminho acabam se deparando com alguns esqueletos, zumbis e aranhas, que não conseguem nem chegar a machucá-los, as armaduras recebidas realmente são muito fortes. Com todo o perímetro limpo, voltam a conversar em frente ao castelo.| Joélinto: "Bom, sabemos que nada irá vir atrás de nós agora, o que vamos fazer?"|:one: - Procurar por armadilhas.|:two: - Entrar no castelo.'],
         'proximos_estados':{
-
+            '1': 97,
+            '2':98
         }
     },
     100: { #dia 4.15
