@@ -331,7 +331,7 @@ estados = {
         }
     },
     51: { #dia 2.27
-        'frases': ['Noel: "Bom, isso era tudo que eu tinha para lhe oferecer, e por experiência própria, sei que é tudo que precisa para sair deste mundo caso encontre seu amigo..."|:one: - Ir para vila->Dia 2.30'],
+        'frases': ['Noel: "Bom, isso era tudo que eu tinha para lhe oferecer, e por experiência própria, sei que é tudo que precisa para sair deste mundo caso encontre seu amigo..."|:one: - Ir para vila.'],
         'proximos_estados':{
             '1': 54
         }
@@ -350,7 +350,7 @@ estados = {
         }
     },
     54: { #dia 2.30
-        'frases': ['Voltando para a vila, o tempo começa a esfriar, você percebe que no outro dia se encontra em um novo desafio, a baixa temperatura.|Passaram alguns minutos e você se encontra perto do seu destino, mas então percebe que está sendo seguido por uma alcateia, com cerca de 7 lobos, você precisa tomar uma decisão imediatamente.|:one: - Lutar contra os lobos com os armamentos que Noel lhe forneceu.|:two: Fugir.'],
+        'frases': ['Voltando para a vila, o tempo começa a esfriar, você percebe que no outro dia se encontra em um novo desafio, a baixa temperatura.|Passaram alguns minutos e você se encontra perto do seu destino, mas então percebe que está sendo seguido por uma alcateia, com cerca de 7 lobos, você precisa tomar uma decisão imediatamente.|:one: - Lutar contra os lobos com os armamentos que Noel lhe forneceu.|:two: - Fugir.'],
         'proximos_estados':{
             '1': 55,
             '2': 56
