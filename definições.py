@@ -632,7 +632,7 @@ estados = {
         }
     },
     96: { #dia 4.11
-        'frases': ['Com mais algumas horas de cavalgada, você e Joélinto encontram o louco que brilha junto com a pulseira de ambos vocês, o local se trata de um pequeno castelo abandonado, cheio de teias de aranha e tochas apagadas. Vocês dois param em frente ao castelo antes de entrar, Joélinto então o pergunta o que vocês irão fazer.|:one: - Procurar por armadilhas.|:two: - Entrar no castelo.|:three: - Dar uma volta no castelo para matar todos os monstros antes de entrar.'],
+        'frases': ['Com mais algumas horas de cavalgada, você e Joélinto encontram o local que brilha junto com a pulseira de ambos vocês, o local se trata de um pequeno castelo abandonado, cheio de teias de aranha e tochas apagadas. Vocês dois param em frente ao castelo antes de entrar, Joélinto então o pergunta o que vocês irão fazer.|:one: - Procurar por armadilhas.|:two: - Entrar no castelo.|:three: - Dar uma volta no castelo para matar todos os monstros antes de entrar.'],
         'proximos_estados':{
             '1': 97,
             '2': 98,
