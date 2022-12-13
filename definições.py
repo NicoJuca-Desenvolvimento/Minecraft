@@ -369,7 +369,7 @@ estados = {
         }
     },
     57: { #dia 3.0
-        'frases': ['```CHECKPOINT```|Dia 3- Você acorda decidido que hoje será o dia que você irá atrás de seu amigo perdido para que consigam chegar ao portal juntos e enfim ir para casa, porém o clima na rua está realmente muito frio, com certos flocos de neve caindo.|```Indo ao estábulo do Pé de pano```|Chegando lá, você repara que ele está meio cabisbaixo, parecendo estar doente, justamente por causa do clima, ele realmente seria útil na jornada atrás do seu amigo.|:one: - Pedir ajuda ao aldeão.|:two: - Continuar sem o pé de pano.'],
+        'frases': ['**CHECKPOINT**| Você acorda decidido que hoje será o dia que você irá atrás de seu amigo perdido para que consigam chegar ao portal juntos e enfim ir para casa, porém o clima na rua está realmente muito frio, com certos flocos de neve caindo.|```Indo ao estábulo do Pé de pano```|Chegando lá, você repara que ele está meio cabisbaixo, parecendo estar doente, justamente por causa do clima, ele realmente seria útil na jornada atrás do seu amigo.|:one: - Pedir ajuda ao aldeão.|:two: - Continuar sem o pé de pano.'],
         'proximos_estados':{
             '1': 58,
             '2': 59
